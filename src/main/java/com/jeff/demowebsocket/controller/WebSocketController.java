@@ -3,6 +3,7 @@ package com.jeff.demowebsocket.controller;
 import com.jeff.demowebsocket.controller.vo.MessageVo;
 import com.jeff.demowebsocket.controller.vo.ResponseMessageVo;
 import com.jeff.demowebsocket.service.MessageService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.stereotype.Controller;

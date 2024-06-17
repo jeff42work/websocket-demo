@@ -1,0 +1,12 @@
+server:
+  port: 1113   # HTTP (Tomcat) port
+  servlet:
+    context-path: /odr-service
+
+#  ssl:
+#    enabled: true
+#    key-store: file:../keyStore/ess_syscom.jks
+#    key-store-password: changeit
+#    key-password: changeit
+#    key-store-type: JKS
+#    key-alias: ess_syscom
